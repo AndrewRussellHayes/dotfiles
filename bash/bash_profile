@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#GOPATH
+export GOPATH=$HOME/dev/go
+#add go bin to path path
+export PATH=$PATH:$HOME/dev/go/bin
+
+# add exist check and look up best practices for this call
+source ~/.bashrc
+
+# pull in proxy stuff. but keep out of dotfiles repo
+source ~/.dotfiles/bash/profile_secrets
+
+# for some reason this works better if called after bashrc
+source ~/.dotfiles/bash/pass.bash-completion
+
+# this may be a better way than above but it doesnt always work
+#TODO: figure out how to make this work as its more than just pass
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#	  . $(brew --prefix)/etc/bash_completion
+#fi
+
+#if [ -f /sw/etc/bash_completion ]; then
+#	   . /sw/etc/bash_completion
+#fi
+
+
+# Use bash-completion, if available
+#[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+#   . /usr/share/bash-completion/bash_completion
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+

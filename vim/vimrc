@@ -1,0 +1,195 @@
+" Copyright (c) Capital One 2017 All Rights Reserved.
+" License: No license is granted explicitly or implicitly.
+"
+" Author: Andrew Hayes (Andrew.Hayes@CapitalOne.com)
+
+" Disclaimer: Very little in this file is original. Most of the code you will
+"   find in this document can be found in many places around the internet. If
+"   you see something that you believe deserves attribution, let me know.
+"     - Andrew.Hayes@CapitalOne.com
+
+"########## Starter Boilerplate
+set nocompatible "fixes a bunch of weird vim stuff (use vim settings, not VI)
+
+" this line ensures that if this file is sourced twice that we wont get our
+" autocommands defined twice (trust me just leave it here)
+autocmd!
+
+
+"########## Functional Settings
+set noswapfile            "turn off all that swap file crap and save normally.
+"set directory=~/.vim/swaps
+set backupdir=~/.vim/backups    " centralized backups
+set undodir=~/.vim/undo         " centralized undo history
+set viminfo=%100,'100,/100,h,\"500,:100,n~/.vim/viminfo
+"TODO: move the .viminfo file to .vim/viminfo and set some settings
+set shortmess=atI               " mute intro message
+"set paste                       " always use paste mode this breaks jj mappingj
+"TODO: make function that takes ctrl-v and turns on paste, pastes, and then sets nopaste
+set encoding=utf-8 nobomb       " use utf-8 wo bom TODO: double check what this does
+set noeol                       " no newline at eof
+set wildmenu                    " enchance cli completion
+set wildmode=list:longest,full  " TODO: document this
+set autowriteall      " automatically save often
+set autoread " set autoread when file is altered externally
+"set clipboard=unnamed  " work with osx pasteboard
+" TODO: look into this. may not be necessary anymore
+map <C-z> u " make ctrl z not send the kill command
+
+" dont use this use J to do the same thing in normal mode
+"map <C-c> :join<Cr> " cntrl+C joins lines now
+set shell=bash
+"set shell=/bin/zsh
+
+" save on 2 esc's
+map <Esc><Esc> :w<CR>
+
+"########## Color Scheme
+set t_Co=256
+syntax enable "Turn on code syntax hilighting
+set background=dark " or light
+"colorscheme solarized TODO: add me
+
+"########## Display Settings
+syntax on
+filetype on
+filetype plugin indent on "turns on indent based on filetype
+set autoindent                  " copy indent from current line
+set smartindent         " some nifty indent stuff type :h si to learn more
+set laststatus=2  "keep the status line at the bottom from going away
+set cmdheight=2   "keep the command window larger
+set ruler         "keep the ruler on
+set visualbell            "visual beeps
+set showmatch     "show matching brackets etc
+set number        "show line numbers
+"set relativenumber              " use line numbers relative to cursor
+set cursorline                  " underline cursor line
+set showmode                    " show current mode
+set laststatus=2                " always show status line
+set showcmd                     " show partial command as it is typed
+
+" underline once the line is logner than 80 char. but only the part too long.
+" NOTE: this is set to 82 because the 81st char is the newline char
+" the docs talk about /r being <CR> and /n being newline.. perhaps we can
+" enhance this to ignore newline and then set it back to 81
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength cterm=underline
+	autocmd BufEnter * match OverLength /\%82v.*/ "TODO: why is this 82?
+augroup END
+
+"########## Tab, Pane and Window movement/management.
+"if you try to open an already opened buffer.. move to instead of opening a
+" second
+set switchbuf=useopen
+set hidden                      " switch buffers without saving
+set nobackup " dont make temp backup
+
+
+"########## Window
+set textwidth=80 " Column at which text will be auto-rolled to next line
+set winwidth=80 " this is the desired minimum, not absolute, of any new window in vim.
+set splitbelow " Open new split panes to right and bottom, which feels more natural
+set splitright " Open new split panes to right and bottom, which feels more natural
+set showtabline=2 "always show tabs at top
+" window resizing
+ set winheight=30
+ " TODO: look into the below line.. in iterm HUD, its causing some issues
+" set winminheight=5
+
+
+" smart window moving "TODO: comment the window stuff
+"TODO: test out this tab stuff. it worked years ago. just verify and document
+"map <C-j> <C-W>j
+"map <C-k> <C-W>k
+"map <C-h> <C-W>h
+"map <C-l> <C-W>l
+
+" resize window CTRL+(H|J|K|L)
+"TODO: test out this tab stuff. it worked years ago. just verify and document
+"nmap K :resize +1<CR>
+"nmap J :resize -1<CR>
+"nmap H :vertical resize -1<CR>
+"nmap L :vertical resize +1<CR>
+
+
+"########## Tab management.
+set smarttab  "TODO: document
+set softtabstop=2               " make tabs as wide as two spaces
+set tabstop=2                   " make tabs as wide as two spaces
+set shiftwidth=2                " set > tab to 2 spaces
+set scrolloff=5                 " scroll 5 lines before horizontal window border
+
+
+"########### Tab Movement
+"TODO: test out this tab stuff. it worked years ago. just verify and document
+" make sure these dont conflict with iterm. may need to use a leader instd of C
+" ?? let mapleader="," " leader setting TODO: am i actually using leader anywhere?
+"nnoremap <silent> <C-n> :tabnext<CR>     " Next Tab
+"nnoremap <silent> <C-p> :tabprevious<CR> " Previous Tab
+"nnoremap <silent> <C-t> :tabnew<CR>      " New Tab
+
+
+"########## Movement Settigns (mainly cursor stuff)
+set backspace=indent,eol,start  " intuitive backspacing in insert mode
+set nostartofline               " do not reset cursor to line start when moving
+
+"" in theory the below lines make the jj and kk remaps run faster. need to test
+":autocmd InsertEnter * set timeoutlen=200
+":autocmd InsertLeave * set timeoutlen=1000
+
+" This is totally awesome - remap jj to escape in insert mode.  You'll never
+" type jj anyway, so it's great!
+"inoremap <special> jj <Esc>
+inoremap jj <Esc>
+inoremap kk <Esc>
+
+" TODO: test for interactions
+" Remap VIM 0 to first non-blank character map 0 ^
+
+"########## Searching and History
+set history=1000                " history
+set hlsearch                    " highlight searches
+"highlight Search cterm=underline "TODO: test this
+set ignorecase                  " ignore case when searching
+set smartcase                   "ignore case unless case is used in the search
+set incsearch                   " dymanic pattern highlighting
+set gdefault                    " use g flag to search/replace
+
+" Clear the search buffer when hitting return
+function! MapCR()
+ nnoremap <cr> :nohlsearch<cr>
+endfunction
+call MapCR()
+
+
+"########## Sometimes useful.. default to off
+" set expandtab                   " use spaces instead of tabs
+" set ttyfast                     " optimize for fast terminal connections
+" set noerrorbells                " disable error bells
+
+
+"########## Custom Fuctions
+
+" This function turns 1h,j,k&l into 10h,j,k&l in both normal and visual mode.
+"	It is not totally clear why this works the way that it does. It appears that
+"	the 0 in the mapping is appended to the 1 as it certainly still works as
+"	expected. This function is necessary because the simple 1-10 mapping yeilds
+"	some undesirable side effects.
+function TenMovement(type)
+    if v:count == 1
+        return '0'.a:type
+    else
+        return a:type
+    endif
+endfunction
+nnoremap <expr> j TenMovement('j') | nnoremap <expr> k TenMovement('k')
+nnoremap <expr> l TenMovement('l') | nnoremap <expr> h TenMovement('h')
+vnoremap <expr> j TenMovement('j') | vnoremap <expr> k TenMovement('k')
+vnoremap <expr> l TenMovement('l') | vnoremap <expr> h TenMovement('h')
+
+
+
+
+"TEST
+" looks like this is needed to make vim work well with crontab
+autocmd filetype crontab setlocal nobackup nowritebackup

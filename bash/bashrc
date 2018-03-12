@@ -1,0 +1,91 @@
+#!/bin/bash
+# Disclaimer: This document along with the others in my dotfiles repository is
+#   sourced from my own experiementation as well as from documents throughout
+#   internet. If you see something that you believe deserves attribution, let
+#   me know.
+# - If you found this document in my CapitalOne repository clone contact me at:
+#   - Andrew.Hayes@CapitalOne.com
+# - If you found this document in the original GitHub repository contact me at:
+#   - Andrew.Russell.Hayes@gmail.com
+##
+
+# Source global definitions (but first so that we can over-write them!)
+if [ -f /etc/bashrc ]; then
+	source /etc/bashrc
+fi
+
+# Source common shell settings (but first so that we can over-write them!)
+if [ -f $HOME/.dotfiles/shell/common.sh ]; then
+	source $HOME/.dotfiles/shell/common.sh
+fi
+
+##
+# Prompt
+##
+PS1="["             # Left open bracket
+PS1+="\[\e[31m\]"   # Set Red Color Text
+PS1+="\u"           # username
+PS1+="\[\e[m\]"     # Clear text Color
+PS1+="@"            # @ divider
+PS1+="\[\e[34m\]"   # set blue color text
+PS1+="\h"           # hostname
+PS1+="\[\e[m\]"     # Clear text Color
+PS1+="\t"           # time
+PS1+="\[\e[33m\]"   # Set Yellow Color Text
+PS1+="\$PWD"        # present working directory
+PS1+="\[\e[m\]"     # Clear text Color
+PS1+="]"            # right close bracket
+PS1+=" \$PSEND"     # PSENT var if defined
+
+# If this is an xterm set the title to user@host:dir
+# This goes after custom PS1 is set.
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+##
+# History settings
+##
+HISTSIZE=99999
+HISTFILESIZE=99999
+HISTTIMEFORMAT='%F %T '
+HISTCONTROL=ignoreboth # don't put duplicate lines or lines starting with space in the history.
+shopt -s histappend # append to the history file, don't overwrite it
+shopt -s cmdhist #make multiline commands one history line
+PROMPT_COMMAND='history -a' #store history immediately
+
+##
+# Other Settings
+##
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# enable programmable completion features.
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+#iterm 2 integration
+source $HOME/.dotfiles/appconfigs/iterm/iterm2_shell_integration.bash
+
+##
+# OS-Specific Blocks
+##
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        # tested on: redhat
+        # echo "Detected OS: linux-gnu"
+        : #this command does nothing but suppresses a bash empty block error.
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+        # Mac OSX
+        # echo "Detected OS: Mac OSX"
+        : #this command does nothing but suppresses a bash empty block error.
+else
+        # Unknown.
+        # echo "Unable to detect OS"
+        : #this command does nothing but suppresses a bash empty block error.
+fi

@@ -1,0 +1,123 @@
+#!/bin/zsh
+# Disclaimer: This document along with the others in my dotfiles repository is
+#   sourced from my own experiementation as well as from documents throughout
+#   internet. If you see something that you believe deserves attribution, let
+#   me know.
+# - If you found this document in my CapitalOne repository clone contact me at:
+#   - Andrew.Hayes@CapitalOne.com
+# - If you found this document in the original GitHub repository contact me at:
+#   - Andrew.Russell.Hayes@gmail.com
+##
+
+# Source global definitions (but first so that we can over-write them!)
+if [ -f /etc/zshrc ]; then
+	source /etc/zshrc
+fi
+
+##
+# Antigen Settings
+##
+source $HOME/.dotfiles/zsh/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+antigen bundle z
+antigen bundle web-search
+antigen bundle jump
+antigen bundle docker
+antigen bundle go
+antigen bundle gradle
+antigen bundle perl
+antigen bundle vagrant
+antigen bundle yum
+antigen bundle systemd
+antigen bundle brew
+antigen bundle colored-man-pages
+antigen bundle history
+antigen bundle MichaelAquilina/zsh-you-should-use
+antigen bundle pass
+antigen bundle extract
+antigen bundle per-directory-history
+# TODO: make function to warn that ctrl-G will toggle and then call history with all args passed in
+##alias history="echo 'ctrl+G to switch between local and global history' && history"
+
+#antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
+
+antigen bundle docker
+
+antigen apply
+
+# Source common shell settings (but first so that we can over-write them!)
+## after antigen though, because we want our alises back antigen tries to overwrite them
+if [ -f $HOME/.dotfiles/shell/common.sh ]; then
+	source $HOME/.dotfiles/shell/common.sh
+fi
+
+##
+# Prompt
+##
+autoload -U colors && colors #turn on prompt colors
+autoload -Uz vcs_info
+precmd () { vcs_info }
+setopt prompt_subst #keep updating the prompt
+
+PROMPT="%{$fg_bold[white]%}"    # set text color white
+PROMPT+="["                     # left open bracket
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg[red]%}"          # set text color red
+PROMPT+="%n"                    # username
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg_bold[white]%}"   # set text color white
+PROMPT+="@"                     # @ divider
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg[blue]%}"         # set text color blue
+PROMPT+="%m"                    # hostname
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg[white]%}"        # set text color white
+PROMPT+="%D{%H:%M:%S}"          # time
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg[yellow]%}"       # set text color yellow
+PROMPT+="%/"                    # PWD
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg_bold[white]%}"   # set text color white
+PROMPT+="]"                     # right close bracket
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+=" \$PSEND"              # PSEND var if defined
+RPROMPT=" \$vcs_info_msg_0_%{$fg[white]%}%D{%a %d/%b/%G}%{$reset_color%}"
+
+##
+# History settings
+##
+HISTSIZE=99999
+SAVEHIST=$HISTSIZE
+HISTFILE="$HOME/.zsh_history"
+setopt SHARE_HISTORY             # Share history between all sessions.
+setopt EXTENDED_HISTORY          # Write the history file in the ":start:elapsed;command" format.
+setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
+setopt HIST_EXPIRE_DUPS_FIRST    # Expire duplicate entries first when trimming history.
+setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
+setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
+setopt BANG_HIST                 # Treat the '!' character specially during expansion.
+setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
+setopt HIST_FIND_NO_DUPS         # Do not display a line previously found.
+
+
+# iterm 2 integration
+source $HOME/.dotfiles/appconfigs/iterm/iterm2_shell_integration.zsh
+
+##
+# OS-Specific Blocks
+##
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        # tested on: redhat
+        # echo "Detected OS: linux-gnu"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+        # Mac OSX
+        # echo "Detected OS: Mac OSX"
+else
+        # Unknown.
+        # echo "Unable to detect OS"
+fi
