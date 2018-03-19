@@ -9,7 +9,7 @@ export PATH=$PATH:$HOME/dev/go/bin
 source ~/.bashrc
 
 # pull in proxy stuff. but keep out of dotfiles repo
-source ~/.dotfiles/bash/profile_secrets
+source ~/.dotfiles/private/profile_secrets
 
 # for some reason this works better if called after bashrc
 source ~/.dotfiles/bash/pass.bash-completion
