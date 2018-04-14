@@ -41,6 +41,7 @@ antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle pass
 antigen bundle extract
 antigen bundle per-directory-history
+echo " \n\nctrl-g toggles dir history\n\n\n"
 # TODO: make function to warn that ctrl-G will toggle and then call history with all args passed in
 ##alias history="echo 'ctrl+G to switch between local and global history' && history"
 

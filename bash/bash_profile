@@ -31,3 +31,6 @@ source ~/.dotfiles/bash/pass.bash-completion
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+
+
+zsh
