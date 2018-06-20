@@ -40,8 +40,8 @@ antigen bundle history
 antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle pass
 antigen bundle extract
-antigen bundle per-directory-history
-echo " \n\nctrl-g toggles dir history\n\n\n"
+#antigen bundle per-directory-history
+##echo " \n\nctrl-g toggles dir history\n\n\n"
 # TODO: make function to warn that ctrl-G will toggle and then call history with all args passed in
 ##alias history="echo 'ctrl+G to switch between local and global history' && history"
 
@@ -76,6 +76,9 @@ PROMPT+="@"                     # @ divider
 PROMPT+="%{$reset_color%}"      # reset text color
 PROMPT+="%{$fg[blue]%}"         # set text color blue
 PROMPT+="%m"                    # hostname
+PROMPT+="%{$reset_color%}"      # reset text color
+PROMPT+="%{$fg_bold[white]%}"   # set text color white
+PROMPT+="|"                     # @ divider
 PROMPT+="%{$reset_color%}"      # reset text color
 PROMPT+="%{$fg[white]%}"        # set text color white
 PROMPT+="%D{%H:%M:%S}"          # time

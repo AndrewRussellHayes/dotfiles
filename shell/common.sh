@@ -9,6 +9,8 @@
 #   - Andrew.Russell.Hayes@gmail.com
 ##
 
+#source ./todo.sh
+
 ##
 # Common Boilerplate Starter Stuff
 ##
