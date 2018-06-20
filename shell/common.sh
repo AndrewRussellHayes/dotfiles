@@ -86,6 +86,8 @@ alias gss='git status'
 alias gs='git status --short'
 alias ga='git add'
 alias gcm='git commit -m'
+alias gpom='git push origin master'
+alias gpor='git push origin release-candidate'
 
 # listing
 #alias ls="ls -AbFG"
