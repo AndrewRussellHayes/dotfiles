@@ -508,7 +508,7 @@
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-05-04T16:28:31Z</date>
+				<date>2018-06-17T15:13:13Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -531,7 +531,7 @@
 			<key>Packer</key>
 			<dict>
 				<key>date</key>
-				<date>2018-05-04T16:28:37Z</date>
+				<date>2018-06-17T15:13:16Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -546,6 +546,51 @@
 					<string>usercontribPacker</string>
 					<key>uniqueIdentifier</key>
 					<string>Packer</string>
+				</dict>
+			</dict>
+			<key>Powershell</key>
+			<dict>
+				<key>date</key>
+				<date>2018-06-18T02:06:45Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Windows shell</string>
+						<string>posh</string>
+						<string>Cmdlets</string>
+						<string>Windows automation</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Powershell#readme</string>
+					<key>authorLinkText</key>
+					<string>lucasg</string>
+					<key>name</key>
+					<string>Powershell</string>
+					<key>platform</key>
+					<string>usercontribPowershell</string>
+					<key>uniqueIdentifier</key>
+					<string>Powershell</string>
+				</dict>
+			</dict>
+			<key>TensorFlow</key>
+			<dict>
+				<key>date</key>
+				<date>2018-05-29T11:10:56Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/TensorFlow#readme</string>
+					<key>authorLinkText</key>
+					<string>Yuxin Wu</string>
+					<key>name</key>
+					<string>TensorFlow</string>
+					<key>platform</key>
+					<string>usercontribTensorFlow</string>
+					<key>uniqueIdentifier</key>
+					<string>TensorFlow</string>
 				</dict>
 			</dict>
 			<key>Terraform</key>
