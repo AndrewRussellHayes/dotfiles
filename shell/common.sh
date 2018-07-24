@@ -94,7 +94,11 @@ alias gpor='git push origin release-candidate'
 alias l="ls  -1AbFGh"
 #alias l="ls  -1AbFGhT" # T needs an arg on centos
 #alias ls="ls  -1AbFGhT"
-alias ll="ls -lAbFGh"
+#alias ll="ls -lAbFGh"
+#alias ll="exa -labFGh"
+#alias ll="exa -labFh" #get rid of G because its grid for exa
+alias ll="exa -laFh --color-scale" #the git thing was being weird
+alias lg="exa -laFh --color-scale --git"
 #alias ll="ls -lAbFGhT"
 #alias lrt="ls -rtlAbFGhT"
 #alias ld="ls -lAbFGhT | egrep '^d'"
@@ -145,3 +149,17 @@ else
         # echo "Unable to detect OS"
         : #this command does nothing but suppresses a bash empty block error.
 fi
+
+
+
+
+##
+# goofy
+##
+alias sl="$(which sl) | lolcat"
+
+## cheat
+cheat(){
+	curl cheat.sh
+	curl cheat.sh/"$1"
+}

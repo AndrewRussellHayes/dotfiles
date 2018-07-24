@@ -480,8 +480,10 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Dropbox/dotfiles/appconfigs/iterm</string>
+	<string>~/Documents</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{720, 474}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
@@ -514,18 +516,29 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>339 552 400 129 0 0 1440 878 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 477 620 392 0 0 1680 1028 </string>
+	<string>410 364 620 392 0 0 1440 878 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>509 271 770 429 0 0 1680 1050 </string>
+	<string>432 397 928 394 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 575 1680 453 0 0 1680 1028 </string>
+	<string>0 878 1440 453 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 976 560 0 0 1680 1028 </string>
+	<string>825 0 612 878 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 553 570 475 0 0 1680 1028 </string>
+	<string>526 149 570 475 0 0 2560 1058 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>840 0 836 1028 0 0 1680 1028 </string>
+	<string>427 15 570 475 0 0 1440 878 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>160 0 1277 878 0 0 1440 878 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>469 583 1865 475 0 0 2560 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1091,6 +1104,8 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -1882,20 +1897,24 @@
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
+	<integer>1</integer>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>99D4CB1A-B3F0-46B0-882C-32F95977620C</string>
+	<string>C12B67FB-6C8B-424C-9DF9-3858CC0CADBE</string>
 	<key>NoSyncLastTipTime</key>
-	<real>549254584.59177101</real>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<real>552202030.38514996</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>541957844.00482297</real>
+	<real>543213730.91748095</real>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -1920,7 +1939,37 @@
 		<string>0018</string>
 		<string>0019</string>
 		<string>0020</string>
-		<string>0019</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
 	</array>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>2</integer>
@@ -1966,11 +2015,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=39</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=41</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-05-28T02:17:57Z</date>
+	<date>2018-06-30T18:18:36Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>

@@ -6,10 +6,63 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>ASCII_Tables</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:04Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>ASCII Tables</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>ASCII_Tables</string>
+				</dict>
+			</dict>
+			<key>Ack</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:02Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>terminal</string>
+						<string>shell</string>
+						<string>bash</string>
+						<string>zsh</string>
+					</array>
+					<key>name</key>
+					<string>Ack</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Ack</string>
+				</dict>
+			</dict>
+			<key>Atom</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:02Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Atom</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Atom</string>
+				</dict>
+			</dict>
 			<key>Bash_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:55Z</date>
+				<date>2018-07-24T02:23:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -24,10 +77,26 @@
 					<string>Bash_Shortcuts</string>
 				</dict>
 			</dict>
+			<key>Blender</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Blender</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Blender</string>
+				</dict>
+			</dict>
 			<key>Chrome_Dev_Tools</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:56Z</date>
+				<date>2018-07-24T02:23:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -45,7 +114,7 @@
 			<key>Docker</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:55Z</date>
+				<date>2018-07-24T02:23:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -61,7 +130,7 @@
 			<key>Dockerfile</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:00Z</date>
+				<date>2018-07-24T02:23:00Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -74,10 +143,42 @@
 					<string>Dockerfile</string>
 				</dict>
 			</dict>
+			<key>Emacs</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:00Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Emacs</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Emacs</string>
+				</dict>
+			</dict>
+			<key>Emoji</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:00Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Emoji</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Emoji</string>
+				</dict>
+			</dict>
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:00Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -98,7 +199,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:02Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -119,7 +220,7 @@
 			<key>HTML_Entities</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:02Z</date>
+				<date>2018-07-24T02:23:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -135,7 +236,7 @@
 			<key>HTML_Head_Elements</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:01Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -151,7 +252,7 @@
 			<key>HTTP_Header_Fields</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:55Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -167,7 +268,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:00Z</date>
+				<date>2018-07-24T02:22:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -180,10 +281,31 @@
 					<string>HTTP_Status_Codes</string>
 				</dict>
 			</dict>
+			<key>HTTP_Status_Codes_Rails</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:58Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>HTTP Status Codes Ruby on Rails</string>
+						<string>HTTP Status Codes for Ruby on Rails</string>
+						<string>HTTP Status Codes Rails</string>
+						<string>HTTP Status Codes for RoR</string>
+					</array>
+					<key>name</key>
+					<string>HTTP Status Codes for Rails</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>HTTP_Status_Codes_Rails</string>
+				</dict>
+			</dict>
 			<key>Hub</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:02Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -201,7 +323,7 @@
 			<key>IntelliJ_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:02Z</date>
+				<date>2018-07-24T02:22:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -214,10 +336,26 @@
 					<string>IntelliJ_Shortcuts</string>
 				</dict>
 			</dict>
+			<key>Java_Lambda_Syntax</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:57Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Java Lambda Syntax</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Java_Lambda_Syntax</string>
+				</dict>
+			</dict>
 			<key>Jira_Shortcuts</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:01Z</date>
+				<date>2018-07-24T02:22:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -233,7 +371,7 @@
 			<key>Keybase.io</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:00Z</date>
+				<date>2018-07-24T02:22:58Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -249,7 +387,7 @@
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:01Z</date>
+				<date>2018-07-24T02:22:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -262,10 +400,29 @@
 					<string>Kubernetes</string>
 				</dict>
 			</dict>
+			<key>Mac_Startup_Keys</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:54Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>mac os x startup keys</string>
+						<string>macosx startup keys</string>
+					</array>
+					<key>name</key>
+					<string>Mac Startup Keys</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Mac_Startup_Keys</string>
+				</dict>
+			</dict>
 			<key>Mutt</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:54Z</date>
+				<date>2018-07-24T02:22:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -280,10 +437,39 @@
 					<string>Mutt</string>
 				</dict>
 			</dict>
+			<key>NSDateFormatter</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:48Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>xcode</string>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>mac os x</string>
+						<string>macosx</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>swift</string>
+					</array>
+					<key>name</key>
+					<string>NSDateFormatter</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>NSDateFormatter</string>
+				</dict>
+			</dict>
 			<key>Netcat</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:54Z</date>
+				<date>2018-07-24T02:22:51Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -294,12 +480,107 @@
 					<string>cheatsheet</string>
 					<key>uniqueIdentifier</key>
 					<string>Netcat</string>
+				</dict>
+			</dict>
+			<key>Oh-My-Zsh_Git</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:45Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ohmyzsh</string>
+						<string>oh my zsh</string>
+						<string>terminal</string>
+						<string>shell</string>
+						<string>bash</string>
+						<string>zsh</string>
+					</array>
+					<key>name</key>
+					<string>Oh-My-Zsh Git</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Oh-My-Zsh_Git</string>
+				</dict>
+			</dict>
+			<key>PostgreSQL_CLI</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:45Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>PostgreSQL CLI</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>PostgreSQL_CLI</string>
+				</dict>
+			</dict>
+			<key>RSpec_Expectations</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:44Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ruby</string>
+					</array>
+					<key>name</key>
+					<string>RSpec Expectations</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>RSpec_Expectations</string>
+				</dict>
+			</dict>
+			<key>Rails_Migrations_CLI</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:46Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Ruby on Rails</string>
+						<string>RoR</string>
+					</array>
+					<key>name</key>
+					<string>Rails Migrations CLI</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Rails_Migrations_CLI</string>
+				</dict>
+			</dict>
+			<key>Regular_Expressions</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:44Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>RegEx</string>
+						<string>reg ex</string>
+					</array>
+					<key>name</key>
+					<string>Regular Expressions</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Regular_Expressions</string>
 				</dict>
 			</dict>
 			<key>SQLite</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:01Z</date>
+				<date>2018-07-24T02:22:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -312,10 +593,106 @@
 					<string>SQLite</string>
 				</dict>
 			</dict>
+			<key>Sourcetree</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:43Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Atlassian</string>
+					</array>
+					<key>name</key>
+					<string>Sourcetree</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Sourcetree</string>
+				</dict>
+			</dict>
+			<key>Sublime_Text_2</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:43Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Sublime Text 2</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Sublime_Text_2</string>
+				</dict>
+			</dict>
+			<key>Sublime_Text_3</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:42Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Sublime Text 3</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Sublime_Text_3</string>
+				</dict>
+			</dict>
+			<key>Swift</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:42Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>mac os x</string>
+						<string>macosx</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>objective-c</string>
+						<string>xcode</string>
+						<string>swift</string>
+					</array>
+					<key>name</key>
+					<string>Swift</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Swift</string>
+				</dict>
+			</dict>
+			<key>Trello</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:41Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Trello</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Trello</string>
+				</dict>
+			</dict>
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:57Z</date>
+				<date>2018-07-24T02:22:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -333,7 +710,7 @@
 			<key>Vim</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:57Z</date>
+				<date>2018-07-24T02:22:40Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -346,10 +723,26 @@
 					<string>Vim</string>
 				</dict>
 			</dict>
+			<key>VimBox</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:40Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>VimBox</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>VimBox</string>
+				</dict>
+			</dict>
 			<key>Visual_Studio_Code</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:00Z</date>
+				<date>2018-07-24T02:22:40Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -362,10 +755,68 @@
 					<string>Visual_Studio_Code</string>
 				</dict>
 			</dict>
+			<key>Xcode_Shortcuts</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:40Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>mac os x</string>
+						<string>macosx</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>objective-c</string>
+						<string>swift</string>
+					</array>
+					<key>name</key>
+					<string>Xcode</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Xcode_Shortcuts</string>
+				</dict>
+			</dict>
+			<key>Xcode_UI_Testing</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:40Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>mac os x</string>
+						<string>macosx</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>objective-c</string>
+						<string>swift</string>
+					</array>
+					<key>name</key>
+					<string>Xcode UI Testing</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Xcode_UI_Testing</string>
+				</dict>
+			</dict>
 			<key>YAML</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:58Z</date>
+				<date>2018-07-24T02:22:39Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -378,10 +829,55 @@
 					<string>YAML</string>
 				</dict>
 			</dict>
+			<key>Yard</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:39Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ruby</string>
+					</array>
+					<key>name</key>
+					<string>Yard</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Yard</string>
+				</dict>
+			</dict>
+			<key>iOS_Design</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:58Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>xcode</string>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>objective-c</string>
+					</array>
+					<key>name</key>
+					<string>iOS Design</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>iOS_Design</string>
+				</dict>
+			</dict>
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:18:02Z</date>
+				<date>2018-07-24T02:22:57Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -399,10 +895,51 @@
 					<string>iTerm2</string>
 				</dict>
 			</dict>
+			<key>npm</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:49Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>node package manager</string>
+						<string>nodejs package manager</string>
+						<string>node.js package manager</string>
+					</array>
+					<key>name</key>
+					<string>npm</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>npm</string>
+				</dict>
+			</dict>
+			<key>screen</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:22:44Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>terminal</string>
+						<string>shell</string>
+						<string>bash</string>
+						<string>zsh</string>
+					</array>
+					<key>name</key>
+					<string>screen</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>screen</string>
+				</dict>
+			</dict>
 			<key>tmux</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-06T18:17:55Z</date>
+				<date>2018-07-24T02:22:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -508,7 +1045,7 @@
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-05T17:29:58Z</date>
+				<date>2018-07-24T02:22:59Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -576,7 +1113,7 @@
 			<key>TensorFlow</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-16T13:54:02Z</date>
+				<date>2018-07-24T02:23:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -611,6 +1148,26 @@
 					<string>usercontribTerraform</string>
 					<key>uniqueIdentifier</key>
 					<string>Terraform</string>
+				</dict>
+			</dict>
+			<key>Yarn</key>
+			<dict>
+				<key>date</key>
+				<date>2018-07-24T02:23:02Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Yarn#readme</string>
+					<key>authorLinkText</key>
+					<string>Phill Ayers</string>
+					<key>name</key>
+					<string>Yarn</string>
+					<key>platform</key>
+					<string>usercontribYarn</string>
+					<key>uniqueIdentifier</key>
+					<string>Yarn</string>
 				</dict>
 			</dict>
 		</dict>
