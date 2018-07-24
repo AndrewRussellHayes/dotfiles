@@ -163,3 +163,8 @@ cheat(){
 	curl cheat.sh
 	curl cheat.sh/"$1"
 }
+
+
+# id like to extend this to make did without arg open file and did with arg
+# takes that string and puts int in as the entry so vim doesnt have to be opened
+alias did="vim +'normal Go' +'r!date' ~/did.txt"
