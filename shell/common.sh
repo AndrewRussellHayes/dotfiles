@@ -167,4 +167,5 @@ cheat(){
 
 # id like to extend this to make did without arg open file and did with arg
 # takes that string and puts int in as the entry so vim doesnt have to be opened
+# would also like to make the format be markdown not txt
 alias did="vim +'normal Go' +'r!date' ~/did.txt"

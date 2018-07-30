@@ -508,7 +508,7 @@
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
-				<date>2018-07-05T17:29:58Z</date>
+				<date>2018-07-25T02:21:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -531,7 +531,7 @@
 			<key>Packer</key>
 			<dict>
 				<key>date</key>
-				<date>2018-06-17T15:13:16Z</date>
+				<date>2018-07-25T02:21:49Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
