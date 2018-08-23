@@ -11,17 +11,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
+~MSle0~/brew
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1535059179,,"wq"
+:git
+|2,0,1535045923,,"git"
+:q
+|2,0,1535045618,,"q"
+:42
+|2,0,1535044748,,"42"
+:32
+|2,0,1535044747,,"32"
 :wq!
 |2,0,1535042736,,"wq!"
-:wq
-|2,0,1535042734,,"wq"
 
 # Search String History (newest to oldest):
+?/brew
+|2,1,1535059156,47,"brew"
 ?/git
-|2,1,1535042717,47,"git"
+|2,1,1535045707,47,"git"
+?/large
+|2,1,1535045443,47,"large"
+?/42
+|2,1,1535044745,47,"42"
+?/antigen
+|2,1,1535044713,47,"antigen"
+?/save
+|2,1,1535044932,47,"save"
 ??git
 |2,1,1535042583,63,"git"
 
@@ -36,253 +54,297 @@
 	alias gpu='git push -u origin'
 |3,0,0,1,1,0,1535042722,"alias gpu='git push -u origin'"
 "1	LINE	0
-	git push -u origin AH-4435-league-cliBaseline
-|3,0,1,1,1,0,1535042623,"git push -u origin AH-4435-league-cliBaseline"
+	
+|3,0,1,1,1,0,1535059065,""
 "2	LINE	0
+	
+|3,0,2,1,1,0,1535059064,""
+"3	LINE	0
+	# git filter-branch --tree-filter 'rm -f DVD-rip' HEAD
+|3,0,3,1,1,0,1535045935,"# git filter-branch --tree-filter 'rm -f DVD-rip' HEAD"
+"4	LINE	0
+	# git filter-branch --tree-filter 'rm -f DVD-rip' HEAD
+|3,0,4,1,1,0,1535045928,"# git filter-branch --tree-filter 'rm -f DVD-rip' HEAD"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1535044788,""
+"6	LINE	0
+	git push -u origin AH-4435-league-cliBaseline
+|3,0,6,1,1,0,1535042623,"git push -u origin AH-4435-league-cliBaseline"
+"7	LINE	0
 	linkdirs $HOME/Dropbox/Downloads    Downloads
-|3,0,2,1,1,0,1535040772,"linkdirs $HOME/Dropbox/Downloads    Downloads"
+|3,0,7,1,1,0,1535040772,"linkdirs $HOME/Dropbox/Downloads    Downloads"
 ""-	CHAR	0
-	n
-|3,1,36,0,1,0,1535042730,"n"
+	d
+|3,1,36,0,1,0,1535059085,"d"
 
 # File marks:
-'0  92  19  ~/Dropbox/dotfiles/shell/common.sh
-|4,48,92,19,1535042736,"~/Dropbox/dotfiles/shell/common.sh"
-'1  93  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,49,93,0,1535042631,"~/Dropbox/dotfiles/shell/common.sh"
-'2  92  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,50,92,0,1535042631,"~/Dropbox/dotfiles/shell/common.sh"
-'3  3  17  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,51,3,17,1535041670,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'4  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,52,3,0,1535041452,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'5  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,53,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'6  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,54,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'7  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,55,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'8  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,56,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
-'9  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,57,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
+'0  166  42  ~/Dropbox/dotfiles/shell/common.sh
+|4,48,166,42,1535059179,"~/Dropbox/dotfiles/shell/common.sh"
+'1  166  12  ~/Dropbox/dotfiles/shell/common.sh
+|4,49,166,12,1535059093,"~/Dropbox/dotfiles/shell/common.sh"
+'2  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,50,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+'3  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,51,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+'4  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,52,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+'5  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,53,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+'6  99  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,54,99,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+'7  97  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,55,97,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+'8  99  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,56,99,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+'9  97  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,57,97,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
 
 # Jumplist (newest first):
--'  92  19  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,92,19,1535042736,"~/Dropbox/dotfiles/shell/common.sh"
--'  58  30  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,58,30,1535042719,"~/Dropbox/dotfiles/shell/common.sh"
--'  8  47  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,8,47,1535042718,"~/Dropbox/dotfiles/shell/common.sh"
+-'  166  42  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,166,42,1535059179,"~/Dropbox/dotfiles/shell/common.sh"
 -'  1  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,1,0,1535042717,"~/Dropbox/dotfiles/shell/common.sh"
+|4,39,1,0,1535059156,"~/Dropbox/dotfiles/shell/common.sh"
+-'  166  12  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,166,12,1535059093,"~/Dropbox/dotfiles/shell/common.sh"
+-'  1  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,1,0,1535058985,"~/Dropbox/dotfiles/shell/common.sh"
+-'  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+-'  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
+-'  96  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,96,16,1535045951,"~/Dropbox/dotfiles/shell/common.sh"
 -'  93  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,93,0,1535042631,"~/Dropbox/dotfiles/shell/common.sh"
--'  92  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,92,0,1535042631,"~/Dropbox/dotfiles/shell/common.sh"
--'  102  40  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,102,40,1535042584,"~/Dropbox/dotfiles/shell/common.sh"
--'  103  36  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,103,36,1535042584,"~/Dropbox/dotfiles/shell/common.sh"
--'  101  40  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,101,40,1535042584,"~/Dropbox/dotfiles/shell/common.sh"
--'  102  36  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,102,36,1535042584,"~/Dropbox/dotfiles/shell/common.sh"
+|4,39,93,0,1535045934,"~/Dropbox/dotfiles/shell/common.sh"
+-'  93  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,93,0,1535045934,"~/Dropbox/dotfiles/shell/common.sh"
+-'  93  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,93,0,1535045934,"~/Dropbox/dotfiles/shell/common.sh"
+-'  83  2  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,83,2,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  58  30  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,58,30,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  83  2  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,83,2,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  58  30  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,58,30,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  83  2  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,83,2,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  58  30  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,58,30,1535045924,"~/Dropbox/dotfiles/shell/common.sh"
+-'  8  47  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,8,47,1535045923,"~/Dropbox/dotfiles/shell/common.sh"
+-'  8  47  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,8,47,1535045923,"~/Dropbox/dotfiles/shell/common.sh"
+-'  8  47  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,8,47,1535045923,"~/Dropbox/dotfiles/shell/common.sh"
 -'  1  0  ~/Dropbox/dotfiles/shell/common.sh
-|4,39,1,0,1535042583,"~/Dropbox/dotfiles/shell/common.sh"
--'  3  17  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,17,1535041670,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  17  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,17,1535041670,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  17  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,17,1535041670,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  17  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,17,1535041670,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041666,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041666,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041666,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041666,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041452,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041452,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041452,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041452,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041446,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041446,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041446,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041446,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  2  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,2,0,1535041439,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041428,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041428,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041428,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041428,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  3  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,3,0,1535041413,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041403,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041403,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041403,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  0  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,0,1535041403,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  11  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,11,1535041342,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  11  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,11,1535041342,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  11  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,11,1535041342,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  1  11  ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
-|4,39,1,11,1535041342,"~/Dropbox/brx/dev/EnvBootstrap/.gitignore"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
--'  118  35  ~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh
-|4,39,118,35,1535040856,"~/Dropbox/dotfiles/private/config18/install-dotfiles-long.sh"
+|4,39,1,0,1535045923,"~/Dropbox/dotfiles/shell/common.sh"
+-'  99  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,99,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  97  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,97,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  99  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,99,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  97  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,97,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  99  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,99,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  97  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,97,0,1535045872,"~/Dropbox/dotfiles/shell/common.sh"
+-'  61  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,61,16,1535045711,"~/Dropbox/dotfiles/shell/common.sh"
+-'  61  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,61,16,1535045711,"~/Dropbox/dotfiles/shell/common.sh"
+-'  61  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,61,16,1535045711,"~/Dropbox/dotfiles/shell/common.sh"
+-'  61  16  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,61,16,1535045711,"~/Dropbox/dotfiles/shell/common.sh"
+-'  9  35  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,9,35,1535045710,"~/Dropbox/dotfiles/shell/common.sh"
+-'  9  35  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,9,35,1535045710,"~/Dropbox/dotfiles/shell/common.sh"
+-'  9  35  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,9,35,1535045710,"~/Dropbox/dotfiles/shell/common.sh"
+-'  9  35  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,9,35,1535045710,"~/Dropbox/dotfiles/shell/common.sh"
+-'  1  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,1,0,1535045707,"~/Dropbox/dotfiles/shell/common.sh"
+-'  178  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,178,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  173  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,173,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  176  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,176,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  171  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,171,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  175  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,175,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  170  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,170,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  168  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,168,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  178  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,178,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  173  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,173,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  176  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,176,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  171  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,171,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  175  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,175,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  170  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,170,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  173  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,173,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  168  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,168,0,1535045618,"~/Dropbox/dotfiles/shell/common.sh"
+-'  84  51  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,84,51,1535045445,"~/Dropbox/dotfiles/shell/common.sh"
+-'  84  51  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,84,51,1535045445,"~/Dropbox/dotfiles/shell/common.sh"
+-'  84  51  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,84,51,1535045445,"~/Dropbox/dotfiles/shell/common.sh"
+-'  84  51  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,84,51,1535045445,"~/Dropbox/dotfiles/shell/common.sh"
+-'  84  51  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,84,51,1535045445,"~/Dropbox/dotfiles/shell/common.sh"
+-'  1  0  ~/Dropbox/dotfiles/shell/common.sh
+|4,39,1,0,1535045443,"~/Dropbox/dotfiles/shell/common.sh"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  23  68  ~/Dropbox/dotfiles/zsh/zshrc
+|4,39,23,68,1535045118,"~/Dropbox/dotfiles/zsh/zshrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
+-'  1  0  ~/Dropbox/dotfiles/vim/vimrc
+|4,39,1,0,1535045084,"~/Dropbox/dotfiles/vim/vimrc"
 
 # Buffer list:
-%~/Dropbox/dotfiles/shell/common.sh	92	19
+%~/Dropbox/dotfiles/shell/common.sh	166	42
 
 # History of marks within files (newest to oldest):
 
 > ~/Dropbox/dotfiles/shell/common.sh
-	*	1535042734	0
-	"	92	19
-	^	92	20
-	.	92	19
-	+	93	44
+	*	1535059179	0
+	"	166	42
+	^	166	109
+	.	167	0
+	+	100	44
 	+	91	28
-	+	93	0
+	+	100	0
 	+	92	19
+	+	98	54
+	+	98	96
+	+	98	0
+	+	93	0
+	+	98	0
+	+	95	0
+	+	94	19
+	+	96	16
+	+	168	0
+	+	166	95
+	+	166	38
+	+	167	0
+	+	168	0
+	+	166	42
+	+	167	0
+
+> ~/Dropbox/dotfiles/zsh/zshrc
+	*	1535045088	0
+	"	23	68
+	^	23	69
+	.	23	68
+	+	56	48
+	+	57	0
+	+	24	38
+	+	23	68
+
+> ~/Dropbox/dotfiles/vim/vimrc
+	*	1535045080	0
+	"	1	0
 
 > ~/Dropbox/brx/dev/EnvBootstrap/.gitignore
 	*	1535041670	0

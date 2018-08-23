@@ -91,6 +91,13 @@ alias gpor='git push origin release-candidate'
 alias gpu='git push -u origin'
 alias gb='git branch'
 
+# confirmed to work:
+# git filter-branch --tree-filter 'rm -f DVD-rip' HEAD
+# probably works:
+# git filter-branch --index-filter 'git rm --cached --ignore-unmatch a b' HEAD
+# git filter-branch -f --index-filter "git rm -rf --cached --ignore-unmatch FOLDERNAME" -- --all
+
+
 # listing
 #alias ls="ls -AbFG"
 alias l="ls  -1AbFGh"
@@ -153,7 +160,10 @@ else
 fi
 
 
-
+##
+# Homebrew
+##
+alias brewbkp="brew bundle dump --describe --file=$HOME/Dropbox/dotfiles/brewfiles/Brewfile_$(date +%y%m%d-%H%M%S)"
 
 ##
 # goofy

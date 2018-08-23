@@ -1,0 +1,158 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+cask "java"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Record and share terminal sessions
+brew "asciinema"
+# Integrated shell for working with the AWS CLI
+brew "aws-shell"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Configurable talking characters in ASCII art
+brew "cowsay"
+# Modern replacement for 'ls'
+brew "exa"
+# Database version control to control migrations
+brew "flyway"
+# Infamous electronic fortune-cookie generator
+brew "fortune"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Extensions to follow Vincent Driessen's branching model
+brew "git-flow"
+# GNU implementation of time utility
+brew "gnu-time"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Build system based on the Groovy language
+brew "gradle"
+# Improved top (interactive process viewer)
+brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Configurable static site generator
+brew "hugo"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# LastPass command-line interface tool
+brew "lastpass-cli"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Text-to-HTML conversion tool
+brew "markdown"
+# Mac App Store command-line interface
+brew "mas"
+# Java-based project management
+brew "maven"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Platform built on V8 to build network applications
+brew "node"
+# Libraries for security-enabled client and server applications
+brew "nss"
+# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
+brew "openvpn"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Password manager
+brew "pass"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@2"
+# File browser
+brew "ranger"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
+# User interface to the TELNET protocol (built from macOS Sierra sources)
+brew "telnet"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Simplified and community-driven man pages
+brew "tldr"
+# Instant terminal sharing
+brew "tmate"
+# CLI tool that moves files or folder to the trash
+brew "trash"
+# Bash completion for Vagrant
+brew "vagrant-completion"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# UNIX shell (command interpreter)
+brew "zsh"
+cask "adobe-acrobat-reader"
+cask "arq"
+cask "atom"
+cask "aws-vault"
+cask "caffeine"
+cask "carbon-copy-cloner"
+cask "dash"
+cask "datagrip"
+cask "diffmerge"
+cask "disk-inventory-x"
+cask "docker"
+cask "dropbox"
+cask "evernote"
+cask "firefox"
+cask "font-source-code-pro"
+cask "font-source-code-pro-for-powerline"
+cask "font-sourcecodepro-nerd-font"
+cask "font-sourcecodepro-nerd-font-mono"
+cask "github-beta"
+cask "goland"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "google-drive-file-stream"
+cask "insomnia"
+cask "intellij-idea"
+cask "iterm2-beta"
+cask "jetbrains-toolbox"
+cask "kitematic"
+cask "little-snitch"
+cask "lumen"
+cask "macvim"
+cask "microsoft-office"
+cask "microsoft-remote-desktop-beta"
+cask "mysqlworkbench"
+cask "nosleep"
+cask "onedrive"
+cask "phpstorm"
+cask "postman"
+cask "pycharm"
+cask "recent-menu"
+cask "rescuetime"
+cask "rubymine"
+cask "satellite-eyes"
+cask "slack"
+cask "spotify"
+cask "the-unarchiver"
+cask "tomighty"
+cask "transmit"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-studio-code"
+cask "vlc"
+cask "webstorm"
+mas "BetterSnapTool", id: 417375580
+mas "Clocker", id: 1056643111
+mas "Countdowns", id: 926707738
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LastPass", id: 926036361
+mas "Microsoft OneNote", id: 784801555
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "ScreenSharingMenulet", id: 578078659
+mas "Shade", id: 546881298
+mas "Sip", id: 507257563
+mas "Snip", id: 512505421

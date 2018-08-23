@@ -19,6 +19,10 @@ fi
 ##
 source $HOME/.dotfiles/zsh/antigen.zsh
 
+## Required at beginning
+POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
+## End of required at beginning section
+
 antigen use oh-my-zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -48,6 +52,8 @@ antigen bundle extract
 #antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
 antigen bundle docker
+
+antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen apply
 
