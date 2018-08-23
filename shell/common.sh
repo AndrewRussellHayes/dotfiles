@@ -88,6 +88,8 @@ alias ga='git add'
 alias gcm='git commit -m'
 alias gpom='git push origin master'
 alias gpor='git push origin release-candidate'
+alias gpu='git push -u origin'
+alias gb='git branch'
 
 # listing
 #alias ls="ls -AbFG"
